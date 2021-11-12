@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login/Registration Form</title>
+  <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+<div class="bg_img">
+</div>
+<p class="tip">Lorem Ipsum</p>
+<div class="cont">
+ <div id="login" class="form sign-in">
+    <h2>What is Lorem Ipsum?</h2>
+    <label>
+      <span>Email</span>
+
+	  <input id="se" type="email" required/>
+    </label>
+    <label>
+      <span>Password</span>
+
+	  <input id="sp" type="password" required/>
+    </label>
+    <!-- <p class="forgot-pass">Forgot password?</p> -->
+	
+    <button type="submit" onclick="login()"  class="btn btn-border-rev btn-blue t-p submit" value="Submit">Sign In</button>
+
+  </div> 
+  
+
+  <div id="register" class="sub-cont">  
+	
+				
+    <div class="img">
+      <div class="img__text m--up">
+        <h2>centuries</h2>
+        <p>Bbut also the leap into electronic typesetting, remaining</p>
+      </div>
+      <div class="img__text m--in">
+        <h2>It is a long </h2>
+        <p>established fact that a reader</p>
+      </div>
+      <div class="img__btn">
+        <span class="m--up">Sign Up</span>
+        <span class="m--in">Sign In</span>
+      </div>
+    </div>
+    <div class="form sign-up">
+      <h2>Lorem Ipsum is simply dummy text,</h2>
+      <label>
+        <span>Email</span>
+        <input id="re" type="email" />
+      </label>
+      <label>
+        <span>Password</span>
+        <input  id="rp" type="password"  />
+      </label>
+	  <label>
+        <span>Repeat Password</span>
+        <input  id="rrp" type="password"  />
+      </label>	  
+		  
+      <button type="submit" onclick="register()" value="Submit" class="btn btn-border-rev btn-blue t-p submit">Sign Up</button>
+      
+    </div>
+  </div>
+</div>
+
+  <script  src="./script.js"></script>
+  <script  src="./register.js"></script>
+</body>
+</html>
